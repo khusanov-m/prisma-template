@@ -1,0 +1,23 @@
+{
+  "name": "base-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prismaGen": "prisma generate",
+    "dev": "npx ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.8.2",
+    "prisma": "^4.4.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.4.0"
+  }
+}
